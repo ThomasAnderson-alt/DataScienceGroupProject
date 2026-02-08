@@ -12,7 +12,7 @@
 │   │   └── regional_gross_disposable_household_income_local_authorities_2023.xlsx
 │   └── data_cleaned/          
 │       └── GDHI_LAD_Panel_1997-2023.csv
-├── gdhi_data_clean.ipynb
+├── data_clean.ipynb
 └── README.md             
 ```
 
