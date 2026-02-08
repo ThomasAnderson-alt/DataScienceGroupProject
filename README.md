@@ -5,11 +5,11 @@ This is the repository for Data Science Group Project for M.Sc. Data Science of 
 
 ```text
 .
-├── GDHI_data_clean/           
+├── Data_Clean/           
 │   ├── data/
 │   │   ├── data_raw/          
 │   │   └── data_cleaned/     
-│   ├── gdhi_data_clean.ipynb
+│   ├── data_clean.ipynb
 │   └── README.md             
 ├── .gitignore              
 ├── requirements.txt         
