@@ -1,0 +1,4 @@
+Feature_Name,Standardized_Weight_(Beta),P_Value,CI_Lower_95%,CI_Upper_95%,Significance
+Lagged Charging Ports Density (T-1),0.2525,0.0416,0.0096,0.4953,**
+Lagged GDHI per Head (T-1),-0.2382,0.2811,-0.6714,0.195,ns (不显著)
+Population Size,2.467,0.0037,0.8019,4.1321,***
