@@ -36,15 +36,6 @@ This repository contains the group project for the MSc Data Science program, foc
   - `Clean_vehicles_data.py`: Python script for data preprocessing
 - `README.md`: Documentation for data cleaning process
 
-### Final Report/
-
-- `56部分latex.md`: LaTeX content for the final report
-- `Weight_Analysis.ipynb`: Jupyter notebook for weight analysis
-- `论文提纲.md`: Thesis outline in Chinese
-
-### Week 8 Pre/
-
-- Preliminary work and preparations for Week 8
 
 ## Installation
 
