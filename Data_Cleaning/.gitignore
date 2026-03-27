@@ -1,0 +1,78 @@
+# Python / virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+coverage.xml
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb
+
+# Data - protect large/raw/cleaned files (but allow small placeholders)
+Data/Raw_Data/*
+!Data/Raw_Data/.gitkeep
+Data/Cleaned_Data/*
+!Data/Cleaned_Data/.gitkeep
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Dependency management
+Pipfile.lock
+poetry.lock
+requirements.txt.lock
+
+# Large model files, caches, etc. (common in data science)
+*.h5
+*.pth
+*.pt
+*.onnx
+*.joblib
+*.pickle
+*.pkl
+cache/
+wandb/
+mlruns/
+lightning_logs/
+
+# Optional: ignore specific large files you don't want to commit
+# Data/Raw_Data/VEH*.csv
+# Data/Cleaned_Data/*.csv
