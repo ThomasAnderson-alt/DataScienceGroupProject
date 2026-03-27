@@ -11,6 +11,7 @@ This repository contains the group project for the MSc Data Science program, foc
 ## Project Structure
 
 ### Analysis/
+
 - **Cleaned_Data/**: Processed datasets ready for analysis
   - `Master_Panel_Data_Final.csv`: Final cleaned panel data
 - **ML_Modelling/**: Machine learning scripts and utilities
@@ -27,6 +28,7 @@ This repository contains the group project for the MSc Data Science program, foc
     - **PFLM/**: Panel Fractional Logit Model results including future features and predictions up to 2035
 
 ### Data_Cleaning/
+
 - **Data/**: Raw and cleaned vehicle data
   - **Cleaned_Data/**: `Total_Cars.csv`, `Total_ULEV.csv`
   - **Raw_Data/**: Source datasets (`LAD_UK.csv`, `VEH0105.csv`, `VEH0132.csv`)
@@ -35,22 +37,26 @@ This repository contains the group project for the MSc Data Science program, foc
 - `README.md`: Documentation for data cleaning process
 
 ### Final Report/
+
 - `56部分latex.md`: LaTeX content for the final report
 - `Weight_Analysis.ipynb`: Jupyter notebook for weight analysis
 - `论文提纲.md`: Thesis outline in Chinese
 
 ### Week 8 Pre/
+
 - Preliminary work and preparations for Week 8
 
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/ThomasAnderson-alt/DataScienceGroupProject.git
    cd DataScienceGroupProject
    ```
 
 2. Create a virtual environment:
+
    ```bash
    python -m venv .venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
@@ -64,17 +70,21 @@ This repository contains the group project for the MSc Data Science program, foc
 ## Usage
 
 ### Data Cleaning
+
 Run the data cleaning script:
+
 ```bash
 python Data_Cleaning/Src/Clean_vehicles_data.py
 ```
 
 ### Running Models
+
 - For Fixed Effects Logit: Execute `Analysis/ML_Modelling/FE_Logit.py`
 - For Gompertz Model: Run `Analysis/ML_Modelling/Gompertz.py`
 - For Panel Fractional Logit: Open and run `Analysis/Panel_Fractional_Logit_Model/Penetration_Prediction.ipynb`
 
 ### Viewing Results
+
 Forecast results are available in `Analysis/Test_Result/Master_Panel_Data/` with CSV files for different models and time periods.
 
 ## Dependencies
@@ -87,6 +97,20 @@ Forecast results are available in `Analysis/Test_Result/Master_Panel_Data/` with
 - matplotlib
 - seaborn
 - jupyter
+
+## Branches
+
+- **Main-Project**: Main branch containing the project baseline
+- **Yiding-Wang**: Development branch for extended analysis and model improvements
+
+## Contributors
+
+- Yiding Wang - Analysis and model development
+- Thomas Anderson - Project setup and repository management
+
+## Acknowledgments
+
+This project is part of the MSc Data Science program and focuses on understanding and predicting the adoption of Ultra-Low Emission Vehicles (ULEVs) across different regions in the UK using advanced econometric and machine learning techniques.
 
 ## Contributors
 
