@@ -25,7 +25,7 @@ This repository contains the group project for the MSc Data Science program, foc
   - **Master_Panel_Data/**: Results from different models
     - **FE_Panel_Logit/**: Fixed Effects Panel Logit forecasts (2024-2027)
     - **Gompertz/**: Gompertz model forecasts (2024-2027)
-    - **PFLM/**: Panel Fractional Logit Model results including future features and predictions up to 2035
+    - **PFLM/**: Panel Fractional Logit Model results including future features and predictions up to 2035 (Finished by Jipeng Song)
 
 ### Data_Cleaning/
 
