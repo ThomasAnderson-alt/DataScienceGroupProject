@@ -106,8 +106,7 @@ Forecast results are available in `Analysis/Test_Result/Master_Panel_Data/` with
 ## Contributors
 
 - Yiding Wang - Analysis and model development
-- Thomas Anderson - Project setup and repository management
-
+- Jipeng Song - Finalising the model and make improvement
 ## Acknowledgments
 
 This project is part of the MSc Data Science program and focuses on understanding and predicting the adoption of Ultra-Low Emission Vehicles (ULEVs) across different regions in the UK using advanced econometric and machine learning techniques.
@@ -115,7 +114,7 @@ This project is part of the MSc Data Science program and focuses on understandin
 ## Contributors
 
 - Yiding Wang (Branch: Yiding-Wang)
-- [Add other group members]
+- Jipeng Song (Branch: Jipeng-Song)
 
 ## License
 
